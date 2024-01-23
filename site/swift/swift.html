@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Console Log Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        main {
+            padding: 20px;
+        }
+
+        #console-log {
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 200px;
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <button onclick="onMessage('Button clicked at ' + new Date().toLocaleTimeString())">Log to Console</button>
+        <div id="console-log"></div>
+    </main>
+    <script src="swift.js"></script>
+</body>
+
+</html>
