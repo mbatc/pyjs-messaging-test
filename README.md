@@ -1,4 +1,4 @@
-# pyjs iframe pessaging Test
+# pyjs iframe messaging Test
 
 This is a proof of concept implementation of a method to pass messages with python and javascript with an embedded page loaded in an iframe.
 
